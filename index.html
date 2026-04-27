@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"rel="stylesheet" />
+
+    <title>Portfolio</title>
+    <style>
+        #pb{
+            color: darkgreen;
+            font-family: monospace;
+            text-align: center;
+            text-decoration: underline;
+        }
+        #cb{
+            color: forestgreen;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="pb">Pebble Bank</h1>
+    <div class="container-fluid navigation pt-3">
+        <div class="row">
+            <div class="col-6 d-flex justify-content-start align-items-center">
+                <i class="fas fa-code fa-2x text-warning pb-3"></i>
+                <h5 class="d-inline pl-2 text-white">Pebble Bank</h5>
+            </div>
+            <div class="col-6 pt-2">
+                <div class="row text-center p-0 d-flex justify-content-end align-items-center">
+                    <div class="col-3">
+                        <a href="#about" class="text-white navigation-link">Home</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#projects" class="text-white navigation-link"></a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#social-media" class="text-white navigation-link">Accounts</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="https://packetcode.github.io/web-development-crash-course/resume-mini-project/"
+                            target="_blank" class="text-white navigation-link">Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3>Welcome to Pebble Bank.Pls enter your information to verify that it's you.</h3>
+            <label> User Name</label><br>
+            <input type="text" id="username"><br>
+            <label>Account Number</label><br>
+            <input type="password" id="number"><br><br>
+            <label>Account Type</label><br>
+            <input type="text" id="account"><br><br>
+
+  <h2 id="cb">Current Balance-₹85,4610</h2> 
+  <img src="download.jpg" style="float:left;">
+<p style="clear: both;"><b><u>TRANSACTION HISTORY</u></b></p>
+    <dt> House Loan Payment</dt>
+    <dd>Date-21st January</dd>
+    <dd>Decsription-INV# 9982-Web Hosting-January</dd>
+    <dd>Debited Amount-₹30,000</dd>
+
+    <dt>Client Payment</dt>
+    <dd>Date-19th February</dd>
+    <dd>Decsription-Recd PMT-ABC Corp-Project Alpha</dd>
+    <dd>Credited Amount-₹1,50,000</dd>
+
+    <dt>Flight Tickets Refund</dt>
+    <dd>Date-1st May</dd>
+    <dd>Decsription-Cancellation Refund-Order #6789</dd>
+    <dd>Credited Amount-₹71,340</dd>
+  </dl>
+<img src="transaction.jpeg" style="width: 200px; height: 300px;">
+<img src="charts.png"  style="float: right;"><br>
+<button type="button">Deposit</button>
+<button type="button">Transfer</button>
+<button type="button">Withdraw</button><br>
+
+Do you want to debit or credit money?<br>
+<button type="button">Credit</button>or
+<button type="button">Debit</button><br>
+
+Pls enter the name of account in which you want to credit or debit money.<br>
+<label> <b>Account Name</b></label><br>
+<input type="text" id="name">
+<button>OK</button>
+
+    <footer>
+        <div class="container text-muted text-center py-3 mt-5">
+            <h5>
+                Copyright &copy; 2026 |
+                <a class="text-warning text-decoration-none" href="#about">All Rights Are Reserved By Pebble Bank</a>
+            </h5>
+        </div>
+    </footer>
+</body>
+</html>
